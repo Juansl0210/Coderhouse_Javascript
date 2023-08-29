@@ -1,0 +1,74 @@
+/* Estilo general para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Enlaces */
+a {
+    text-decoration: none;
+    color: #007bff;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: max-content; /* Esto permite que los enlaces ocupen solo el ancho necesario */
+}
+
+/* Formulario */
+#register {
+    max-width:1000px; /* Aumentamos el ancho máximo del formulario */
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centramos los elementos internamente */
+}
+
+/* Campos de entrada */
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: auto;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    text-align: center; /* Centramos el texto dentro de los campos */
+}
+
+/* Botón de envío */
+input[type="submit"] {
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Párrafo de resultados */
+#pru {
+    text-align: center;
+    margin-top: 10px;
+    color: #333;
+}
+
+/* Estilos adicionales para íconos de Font Awesome (si los usas) */
+.fa {
+    margin-right: 5px;
+}
+
+C:\Users\catal\OneDrive\Escritorio\PR_JCSL\pru

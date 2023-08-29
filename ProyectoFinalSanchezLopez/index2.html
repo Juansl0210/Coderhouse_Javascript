@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Proyecto_Final</title>
+</head>
+<body>
+    <a href="index.html">Inicio</a>
+    <hr/>
+    <form id="register">
+        <input type="text" name="nombre" id="nombre" placeholder="Nombre Completo" ><br>
+        <input type="text" name="banco" id="banco" placeholder="Banco" ><br>
+        <input type="number" name="prestamo" id="prestamo" required placeholder="Cual es el monto que te prestaron"><br>
+        <input type="text" name="interes" id="interes"  required placeholder="Cual es el procentaje de interes de 0 a 1"><br>
+        <input type="number" name="plazo" id="plazo" required placeholder="Cual es el plazo en meses de tu deuda"><br>
+        <input type="number" name="mes_curso" id="mes_curso"  required placeholder="Cual es el mes en curso"><br>
+        <input type="number" name="pagos_rea" id="pagos_rea"  required placeholder="pago hasta el momento"><br>
+        <input type="submit" value="Enviar" id="myBtn">
+        <p id="pru"></p>
+    </form>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./miarchivo.js"></script>
+</body>
+</html>

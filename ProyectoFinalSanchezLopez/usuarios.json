@@ -1,0 +1,13 @@
+[
+    {"id":1,"name":"HSBC","Tasa":"39.9%","Costo":"48.1%"},
+    {"id":2,"name":"Banamex","Tasa":"28%","Costo":"31.9%"},
+    {"id":3,"name":"Afirme","Tasa":"39%","Costo":"46.8%"},
+    {"id":4,"name":"Inbursa","Tasa":"27.6%","Costo":"31.4%"},
+    {"id":5,"name":"Banco del Bajio","Tasa":"28%","Costo":"34.5%"},
+    {"id":6,"name":"Banregio","Tasa":"43%","Costo":"57.9%"},
+    {"id":7,"name":"IXE","Tasa":"24%","Costo":"29.3%"},
+    {"id":8,"name":"Bancomer","Tasa":"34%","Costo":"39.8%"},
+    {"id":9,"name":"Banorte","Tasa":"44%","Costo":"63.1%"},
+    {"id":10,"name":"Scotiabanck","Tasa":"21%","Costo":"23.5%"}
+
+]
